@@ -122,7 +122,7 @@ DISABLE_COLLECTSTATIC = 1
 STATIC_URL = '/static/'
 
 # Parse database configuration from $DATABASE_URL
-#import dj_database_url
-#DATABASES['default'] =  dj_database_url.config(default='sqlite://db/db.sqlite3')
+import dj_database_url
+DATABASES['default'] =  dj_database_url.config(default='sqlite://db/db.sqlite3')
 
-#STATIC_ROOT = 'staticfiles'
+STATIC_ROOT = 'staticfiles'
