@@ -125,4 +125,4 @@ STATIC_URL = '/static/'
 #import dj_database_url
 #DATABASES['default'] =  dj_database_url.config(default='sqlite://db/db.sqlite3')
 
-#STATIC_ROOT = 'staticfiles'
+STATIC_ROOT = 'staticfiles'
